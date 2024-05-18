@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form_container">
+            <form id="js-form_creation" class="form_creation">
+                <p>Add contact</p>
+                <label>Name</label><br>
+                <input type="text" id="name"><br>
+                <label>Email</label><br>
+                <input type="email" id="email"><br><br>
+                <div class="submit">
+                    <button onclick="createUser()">Submit</button><br>
+                </div>
+            </form>
+
+            <hr>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Delete</th>
+            </tr>
+        </thead>
+        <tbody id="table_content"></tbody>
+    </table>
+    <script src="script.js"></script>
+</body>
+</html>

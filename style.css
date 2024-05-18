@@ -1,0 +1,38 @@
+.form_creation{
+    label{
+        color: rgb(73, 73, 73);
+        
+    }
+    input{
+        margin-top: 10px;
+        width: 90%;
+    }
+    p{
+        font-weight: bold;
+        font-size: 20px;
+    }
+}
+.submit button {
+  
+    color: white;
+    background-color: rgb(59, 59, 192);
+    border:none;
+    padding: 5px;
+    border-radius: 2px;
+}
+table {
+    width: 100%;
+    margin-top: 20px;
+}
+table, th, td {
+    border: 1px solid rgb(163, 163, 163);
+    border-collapse: collapse;
+    text-align: center;
+    padding: 10px;
+    font-weight: 2px;
+}
+#deleteUser{
+    background-color: white;
+    border: red;
+    color: red;
+}
